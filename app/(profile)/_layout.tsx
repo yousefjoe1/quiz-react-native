@@ -13,8 +13,8 @@ export default function TabLayout() {
   return (
     <SafeAreaView>
       <View>
-        <Text>Home from home</Text>
-        <Link href={`/home`}>Home Link from tab</Link>
+        <Text>Home from tabs</Text>
+        <Link href={`/`}>Go to Home Link</Link>
       </View>
     </SafeAreaView>
 //     <Tabs.Screen
